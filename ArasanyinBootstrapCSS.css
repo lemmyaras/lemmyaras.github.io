@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+body
+{
+	background: lightpink;
+	opacity: 0.6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 150px;
+	min-height: 1250px;
+	background: white;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 10px;
+	padding: 10px;
+	box-shadow: 0 35px 55px black; 
+	overflow-y: scroll;
+}
+.header {
+	text-align: center;
+	color: black;
+}
+.header h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.paragraph text {
+  color: black;
+}
+.header h4 {
+	text-align: left; 
+	color: black;
+}
+.img-area{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 20px auto;
+	border:	15px groove white;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.list-unstyled li {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+}
