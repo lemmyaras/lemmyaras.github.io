@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 body {
 	margin: 0;
@@ -21,7 +22,8 @@ body
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; 
+  z-index: 1000;
+  font-family: 'Lato', sans-serif;  
 }
 .navbar-nav li {
   list-style: none;
@@ -44,8 +46,10 @@ body
   font-size: 16px;
 
   &:hover {
-    background-color: rgba(13, 110, 253, 0.1); /* Slight hover effect */
-	
+    background-color: rgba(111, 143, 175); 
+}
+.header-3 {
+  font-family: 'Signika', sans-serif;
 }
 .row img {
   width: 797.4px;
