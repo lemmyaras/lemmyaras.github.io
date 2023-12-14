@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body
+{
+  background-color: rgb(245, 222, 222);
+  opacity: 1; 
+}
+.navbar {
+  border-bottom: 3px solid #ddd;
+  background: linear-gradient(to right, #de3163, #ffb3cc);
+}
+.dropdown-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.carousel-item {
+  animation: spin 3s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bg-info {
+  background-color: #DA70D6 !important; 
+}
